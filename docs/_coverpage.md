@@ -1,16 +1,16 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](_media/logo.svg)
 
-# docsify <small>3.5</small>
+# 前端规范 <small>1.0</small>
 
-> 一个神奇的文档网站生成器。
+> 一个基于 vue 的前端规范文档
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- 覆盖全面
+- 集成官方规范文档
+- 团队总结
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[GitHub](https://github.com/w264747477/specification/)
 [Get Started](README.md)
 
 <!-- 背景图片 -->
