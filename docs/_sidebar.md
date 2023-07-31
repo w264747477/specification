@@ -5,3 +5,4 @@
 - [项目组织规范](zh-cn/projectOrganization.md)
 - [注释](zh-cn/annotation.md)
 - [低代码规范](zh-cn/lowCode.md)
+- [vue2 升级 vue3](zh-cn/vueUpdate.md)
