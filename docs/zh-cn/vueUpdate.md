@@ -135,6 +135,17 @@ Img 元素，不能直接写宽高，需要写在style里面
 组件引用方式，需要导入，并且在components中注册
 ```
 
+- 构建工具升级
+
+```js
+vue-loader 升级至 ^16.0.0
+vue-cli升级
+vue升级
+添加@vue/compat
+将vue-template-compiler替换为 @vue/compiler-sfc。为 vue 设置别名 @vue/compat，且通过 Vue 编译器选项开启兼容模式
+
+```
+
 - vuex 升级 4.0.0
 
 ```js
