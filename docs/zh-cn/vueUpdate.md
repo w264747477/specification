@@ -130,6 +130,7 @@ watch([name, () => userInfo.age], ([newName, newAge], [oldName, oldAge]) => {
 - vue 代码变更
 
 ```js
+main.js改造，适配vue3
 子传父的emit,不能用 change 命名
 Img 元素，不能直接写宽高，需要写在style里面
 组件引用方式，需要导入，并且在components中注册
@@ -186,6 +187,8 @@ el-breadcrumb 面包屑导航，默认为/，想要变成->需要添加 separato
 
 - 如果有 vant，需要将 vant 升级到 vant4
 - Axios 使用方式变更:从 this.$axios 变成 axios ===> import axios from 'axios';
+- 主题颜色需要重新配置，适配 vue3
+- qiankun 适配改造
 
 ### 部分升级:新需求升级
 
@@ -217,4 +220,12 @@ vue版本升级，代码无需改动
   }
 }
 
+```
+
+## 直接升级到 vue3 的难点？
+
+```js
+1.项目体量过大，开发工作量较多
+2.需要全量测试
+3.会有一定的学习成本
 ```
