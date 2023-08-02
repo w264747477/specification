@@ -186,7 +186,7 @@ el-breadcrumb 面包屑导航，默认为/，想要变成->需要添加 separato
 ```
 
 - 如果有 vant，需要将 vant 升级到 vant4
-- Axios 使用方式变更:从 this.$axios 变成 axios ===> import axios from 'axios';
+- Axios 使用方式变更:从 this.$axios 变成 import axios from '@/plugins/axios'
 - 主题颜色需要重新配置，适配 vue3
 - qiankun 适配改造
 
@@ -221,6 +221,8 @@ vue版本升级，代码无需改动
 }
 
 ```
+
+### 结合升级:老项目升级到 vue2.7,新需求使用 vue3
 
 ## 直接升级到 vue3 的难点？
 
